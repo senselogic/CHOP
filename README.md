@@ -4,7 +4,8 @@
 
 Cross-platform file splitter and joiner.
 
-![](https://github.com/senselogic/CHOP/blob/master/SCREENSHOT/screenshot.png)
+![](https://github.com/senselogic/CHOP/blob/master/SCREENSHOT/screenshot_linux.png)
+![](https://github.com/senselogic/CHOP/blob/master/SCREENSHOT/screenshot_windows.png)
 
 ## Installation
 
