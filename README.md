@@ -33,7 +33,7 @@ make
 
 ### Windows
 
-Install the [MSYS2](https://www.msys2.org/).
+Install [MSYS2](https://www.msys2.org/).
 
 Open a `MSYS2 MinGW 64-bit` shell from Start menu and build the executable with the following commands :
 
