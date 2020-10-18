@@ -35,7 +35,7 @@ make
 
 Install [MSYS2](https://www.msys2.org/).
 
-Open a `MSYS2 MinGW 64-bit` shell from the `Start` menu and build the executable with the following commands :
+Open an `MSYS2 MinGW 64-bit` shell from the `Start` menu and build the executable with the following commands :
 
 ```bash
 pacman -S git base-devel mingw-w64-x86_64-toolchain mingw-w64-x86_64-gcc mingw-w64-x86_64-gtkmm3
