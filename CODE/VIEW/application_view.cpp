@@ -18,12 +18,14 @@ APPLICATION_VIEW::APPLICATION_VIEW(
 {
     srand( time( nullptr ) );
 
+    set_resizable( true );
+
     TargetEntryVector.push_back(
         GTK_TARGET_ENTRY( "text/uri-list", GTK_TARGET_OtherApplication, 0 )
         );
 
     set_title( "Chop" );
-    set_default_size ( 1024, 640 );
+    set_default_size ( 800, 600 );
     set_border_width( 5 );
 
     add( VerticalBox );
