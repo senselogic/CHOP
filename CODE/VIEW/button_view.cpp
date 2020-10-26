@@ -16,8 +16,8 @@ BUTTON_VIEW::BUTTON_VIEW(
 {
     SplitButton.set_sensitive( false );
     SizeEntry.set_placeholder_text( "Size" );
-    SizeEntry.set_text( "5m" );
-    SizeEntry.set_sensitive( false );
+    SizeEntry.set_text( "5000000" );
+    SizeEntry.set_sensitive( true );
     JoinButton.set_sensitive( false );
 
     pack_start( SplitButton, false, false );

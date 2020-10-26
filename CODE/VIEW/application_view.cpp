@@ -102,19 +102,16 @@ void APPLICATION_VIEW::HandleDragDataReceivedEvent(
         if ( InputFileView.FileTable.GetFileCount() == 1 )
         {
             ButtonView.SplitButton.set_sensitive( true );
-            ButtonView.SizeEntry.set_sensitive( true );
             ButtonView.JoinButton.set_sensitive( false );
         }
         else if ( InputFileView.FileTable.GetFileCount() > 1 )
         {
             ButtonView.SplitButton.set_sensitive( false );
-            ButtonView.SizeEntry.set_sensitive( false );
             ButtonView.JoinButton.set_sensitive( true );
         }
         else
         {
             ButtonView.SplitButton.set_sensitive( false );
-            ButtonView.SizeEntry.set_sensitive( false );
             ButtonView.JoinButton.set_sensitive( false );
         }
     }
